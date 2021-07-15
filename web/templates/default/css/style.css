@@ -1,0 +1,279 @@
+:root {
+    --color1: #66C05D;
+    --color2: #000;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #efefef;
+    color: #fff;
+    font-size: 16px;
+    min-width: 320px;
+}
+
+img {
+    max-width: 100%;
+    /* адаптивность изображений */
+    height: auto;
+}
+
+section {
+    padding: 50px 0;
+}
+
+a {
+    color: #111;
+}
+
+a:hover {
+    color: var(--color1);
+}
+
+.main {
+    margin: auto 5%;
+}
+
+.width-search {
+    width: 350px;
+}
+
+.icon-basket:before {
+    color: var(--color2);
+}
+
+.icon-user-o:before {
+    color: var(--color2);
+}
+
+.icon-basket:hover::before {
+    color: var(--color1);
+}
+
+.icon-user-o:hover:before {
+    color: var(--color1);
+}
+
+.nav {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.header-nav>ul>li>a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: var(--color2);
+    height: 1px;
+    transition: all .3s;
+    transform: scale(0);
+}
+
+.header-nav>ul>li>a:hover::after {
+    transform: scale(1);
+}
+
+.navbar-brand spain {
+color:var(--color1);
+font-style:italic;
+font-size: 30px;
+}
+
+.produkt-detalis {
+    color: #000;
+}
+
+.product-price {
+    color: #000;
+    font-size: 14px;
+}
+
+.product-links {
+    display: flex;
+    justify-content: space-between;
+    line-height: 14px;
+    margin: auto 7px;
+}
+
+.counter__container {
+    display: flex;
+    justify-content: cpace-around;
+    margin: auto 4px;
+}
+
+.counter {
+    width: 40px;
+    text-align: center;
+}
+
+.minus, .plus {
+    height: 24px;
+    width: 20px;
+    margin: 0 px;
+}
+
+.plus {
+    margin-right: 3px;
+}
+
+.counter-input {
+    margin: auto 2px;
+}
+
+.counter-input input {
+    height: 24px;
+}
+
+.product-thumb {
+    background-color: #efefef;
+}
+
+.product-thumb a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 20px;
+}
+
+.product-thumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-detalis h4 a {
+    font-weight: 500px;
+    display: block;
+    height: 50px;
+    overflow: hidden;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.product-detalis p a {
+    display:inline-block;
+    font-size: 15px;
+    
+    color: #999;
+    height: 44px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+
+.product-detalis p  {
+    display:inline-block;
+    font-size: 15px;
+   
+    color: #999;
+    height: 44px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid rgb(80, 76, 76);
+    padding-top: 10px;
+}
+
+.product-price {
+    font-style: 18px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    margin: auto 0;
+}
+
+.product-card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.006);
+    transition: all .3s;
+    padding: 10px;
+    background-color: #F8F9FA;
+}
+
+.product-card:hover {
+    box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+    border: 1px solid var(--color1);
+}
+
+.button-links {
+    width: 60px;
+    height: 38px;
+}
+
+.button-links button {
+    background-color: var(--color1);
+    border: 1px solid var(--color1);
+    color: #fff;
+}
+
+.button-links button:hover {
+    background-color: #198754;
+    border: 1px solid var(--color1);
+    color: #fff;
+}
+
+.button-links button:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.button-links button:focus-visible {
+    outline: none !important;
+    box-shadow: none;
+}
+
+/* Footer */
+
+
+.footer{ 
+    background-color: #343434;
+  
+}
+
+
+
+.footer h4 {
+
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px solid #665;
+    padding-bottom: 3px;
+    padding-top: 30px;
+    padding-right: 40px;
+    
+    
+
+
+
+
+
+}
+.footer a {
+    text-decoration: none
+    ;
+}
+.footer a:hover {
+    color:#fff;
+    text-decoration: underline;
+}
+
+.footer a,.footer li {
+
+    color:#c8c8c8;
+} 
+
+.footer li a {
+    display: block;
+}
+
+.footer-icons {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
+
+
+}
+
